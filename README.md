@@ -141,14 +141,14 @@ What <span style="font-family: courier">reset_focus</span> and <span style="font
 
 The video below demonstrates the control handling Tab and Enter keys.
 
-<video src="Assets/SpinBox_001_000 _TAB_Enter.mp4" controls="controls" style="max-width: 730px;">
-</video>
+https://github.com/chribonn/TKinter_Spinbox/assets/7222836/06be162b-56f2-4d80-8fb1-995c2f61dc96
 
 
 The video below demonstrates the control handling type and range checks.
 
-<video src="Assets/SpinBox_001_001_Type_Range.mp4" controls="controls" style="max-width: 730px;">
-</video>
+https://github.com/chribonn/TKinter_Spinbox/assets/7222836/d07b9390-2c5c-4fe7-89f5-5b510fe6b2bf
+
+
 
 ## Conclusion
 
