@@ -2,6 +2,8 @@
 
 This repository borrows the code repository [Password Generator GUI written in Python using the TKinter module](https://github.com/chribonn/PasswordGeneratorPython). It explains how one can programmatically make the Spinbox control function correctly with a numeric range both visually and operationally.  It also opens a discussion on this control to make it more efficient.
 
+This article and the source code can be downloaded from: [Github](https://github.com/chribonn/TKinter_Spinbox)
+
 ## TKinter's Spinbox control
 
 ![Spinbox Control](Assets/Spinbox.png)
