@@ -141,19 +141,14 @@ What <span style="font-family: courier">reset_focus</span> and <span style="font
 
 The video below demonstrates the control handling Tab and Enter keys.
 
-<figure class="video_container">
-  <video controls="true" allowfullscreen="true" poster="Assets/Spinbox.png">
-    <source src="Assets/SpinBox_001_000 _TAB_Enter.mp4" type="video/mp4">
-  </video>
-</figure>
+<video src="Assets/SpinBox_001_000 _TAB_Enter.mp4" controls="controls" style="max-width: 730px;">
+</video>
+
 
 The video below demonstrates the control handling type and range checks.
 
-<figure class="video_container">
-  <video controls="true" allowfullscreen="true" poster="Assets/Spinbox.png">
-    <source src="Assets/SpinBox_001_001_Type_Range.mp4" type="video/mp4">
-  </video>
-</figure>
+<video src="Assets/SpinBox_001_001_Type_Range.mp4" controls="controls" style="max-width: 730px;">
+</video>
 
 ## Conclusion
 
