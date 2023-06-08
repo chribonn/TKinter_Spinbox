@@ -139,15 +139,14 @@ OOTB typing in a value in the Spinbox control and pressing Enter or Tab would no
 
 What <span style="font-family: courier">reset_focus</span> and <span style="font-family: courier">ValidateIfNum</span> function do is to read what is in the spinbox control (using get), validating it and wither keeping the value if it is correct or replacing it with the last valid value.
 
-The video below demonstrates the control handling Tab and Enter keys.
+The video below demonstrates the Spinbox control handling Tab and Enter key presses.
 
-https://github.com/chribonn/TKinter_Spinbox/assets/7222836/06be162b-56f2-4d80-8fb1-995c2f61dc96
+https://github.com/chribonn/TKinter_Spinbox/assets/7222836/eb7e3e9a-6bb8-4365-b370-4cbad5f48a95
 
 
-The video below demonstrates the control handling type and range checks.
+The video below demonstrates the Spinbox control handling type and range checks. In this video the button control is pressed. 
 
-https://github.com/chribonn/TKinter_Spinbox/assets/7222836/d07b9390-2c5c-4fe7-89f5-5b510fe6b2bf
-
+https://github.com/chribonn/TKinter_Spinbox/assets/7222836/4bcab072-fbfa-4c1d-b938-b8904a863689
 
 
 ## Conclusion
