@@ -10,7 +10,7 @@ This article and the source code can be downloaded from: [Github](https://github
 
 The Spinbox control ["*is an Entry with increment and decrement arrows. It is commonly used for number entry or to select from a list of string values*"](https://tkdocs.com/pyref/ttk_spinbox.html). The control accepts input through the up or down arrows or by typing directly into the text box.
 
-While the control has built in functionality that allows range checking when the up and down arrows are pressed, the same is missing when one types directly into the text box. This means that one can type anything into a Spinbox.
+While the control has built-in functionality that allows range checking when the up and down arrows are pressed, the same is missing when one types directly into the text box. This means that one can type anything into a Spinbox.
 
 This article describes this limitation and explains how it can be addressed.
 
@@ -30,7 +30,7 @@ The Spinbox core settings relevant to this discussion are:
             increment=1,
 
 * <span style="font-family: courier">self.passLenSb</span> is the name of the control.
-* <span style="font-family: courier">textvariable</span> references the variable that stores the value in the Spinbox. One reads or updates the value fo the control through the references variable (<span style="font-family: courier">textvariable</span> in this example).
+* <span style="font-family: courier">textvariable</span> references the variable that stores the value in the Spinbox. One reads or updates the value of the control through the references variable (<span style="font-family: courier">textvariable</span> in this example).
 * <span style="font-family: courier">from_</span>, <span style="font-family: courier">to</span> and <span style="font-family: courier">increment</span> let one specify the range and incremental value the control will change by when the arrows are pressed.
 * The control also allows for the parameter <span style="font-family: courier">values</span>. This is not discussed here.
 
@@ -69,7 +69,7 @@ With <span style="font-family: courier">Spinbox_000.py</span> one could also ent
 
 The <span style="font-family: courier">validate</span> parameter specifies what triggers validation. In this solution this will happen whenever the control gains or loses focus. <span style="font-family: courier">validatecommand</span> points to the code that is executed. 
 
-OOTB typing in a value in the Spinbox control and pressing Enter or Tab would not trigger a focus change so these two keys had to be programed to call the function <span style="font-family: courier">reset_focus</span> whenever the were pressed.
+OOTB typing in a value in the Spinbox control and pressing Enter or Tab would not trigger a focus change so these two keys had to be programmed to call the function <span style="font-family: courier">reset_focus</span> whenever they were pressed.
 
     
     ##### Start: commented out in Spinbox_000.py
@@ -137,7 +137,7 @@ OOTB typing in a value in the Spinbox control and pressing Enter or Tab would no
         return valid
     ##### End: commented out in Spinbox_000.py
 
-What <span style="font-family: courier">reset_focus</span> and <span style="font-family: courier">ValidateIfNum</span> function do is to read what is in the spinbox control (using get), validating it and wither keeping the value if it is correct or replacing it with the last valid value.
+What <span style="font-family: courier">reset_focus</span> and <span style="font-family: courier">ValidateIfNum</span> function do is to read what is in the spinbox control (using get), validating it and either keeping the value if it is correct or replacing it with the last valid value.
 
 The video below demonstrates the Spinbox control handling Tab and Enter key presses.
 
